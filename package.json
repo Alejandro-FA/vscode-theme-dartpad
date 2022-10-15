@@ -1,0 +1,21 @@
+{
+  "name": "vscode-theme-dartpad",
+  "displayName": "DartPad Theme",
+  "description": "Theme inspired by DartPad.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "DartPad",
+        "uiTheme": "vs-dark",
+        "path": "./themes/DartPad-color-theme.json"
+      }
+    ]
+  }
+}
