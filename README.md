@@ -1,8 +1,8 @@
 # DartPad Theme
 
-Unoficcial theme inspired by [DartPad](https://www.dartpad.dev/)
+Unoficcial theme inspired by [DartPad](https://www.dartpad.dev/).
 
-## Preview
+## Preview
 
 ![Dark theme preview](images/preview-dark.png)
 
