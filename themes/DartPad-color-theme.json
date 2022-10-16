@@ -1900,7 +1900,7 @@
 	  },
 	  {
 		"name": "js/ts italic",
-		"scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
+		"scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.language.super",
 		"settings": {
 		  "fontStyle": "italic"
 		}
@@ -1931,6 +1931,14 @@
 		"scope": "constant.language.dart",
 		"settings": {
 		  "foreground": "#ff926f"
+		}
+	  },
+	  {
+		"name": "String interpolation variable",
+		"scope": "string.interpolated.single.dart",
+		"settings": {
+			"foreground": "#ffffff",
+			"fontStyle": ""
 		}
 	  }
 	],
