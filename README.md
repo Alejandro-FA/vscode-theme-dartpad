@@ -6,6 +6,8 @@ Unoficcial theme inspired by [DartPad](https://www.dartpad.dev/).
 
 ![Dark theme preview](images/preview-dark.png)
 
+DartPad theme with [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) font family.
+
 ## Activate theme
 
 Open the [Command Palette](https://code.visualstudio.com/api/ux-guidelines/command-palette):
