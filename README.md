@@ -1,14 +1,14 @@
 # DartPad Theme
 
-Unoficcial theme inspired by [DartPad](https://www.dartpad.dev/).
+Unofficial theme inspired by [DartPad](https://www.dartpad.dev/). If you are a fan of minimalist dark themes, this one is for you.
 
 ## Preview
 
 ![Dark theme preview](images/preview-dark.png)
 
-DartPad theme with [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) font family.
+DartPad theme with [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) font family and [Bracket Pair Colorization](https://code.visualstudio.com/blogs/2021/09/29/bracket-pair-colorization) disabled.
 
-## Activate theme
+## How to activate the theme
 
 Open the [Command Palette](https://code.visualstudio.com/api/ux-guidelines/command-palette):
 
@@ -16,7 +16,7 @@ Open the [Command Palette](https://code.visualstudio.com/api/ux-guidelines/comma
   - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘ + Shift + P`
   - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
 
-Type `Preferences: Color Theme`, and select `DatPad`.
+Type `Preferences: Color Theme`, and select `DartPad`.
 
 ## How to change the font to match DartPad
 

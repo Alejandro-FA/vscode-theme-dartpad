@@ -161,13 +161,6 @@
 		}
 	  },
 	  {
-		"name": "variable.language.rust",
-		"scope": "variable.language.rust",
-		"settings": {
-		  "foreground": "#00d2fb"
-		}
-	  },
-	  {
 		"name": "support.constant.edge",
 		"scope": "support.constant.edge",
 		"settings": {
@@ -188,13 +181,13 @@
 		  "foreground": "#909090"
 		}
 	  },
-	  {
-		"name": "punctuation.definition",
-		"scope": "punctuation.definition.string.begin,punctuation.definition.string.end",
-		"settings": {
-		  "foreground": "#fa557d"
-		}
-	  },
+	//   {
+	// 	"name": "punctuation.definition",
+	// 	"scope": "punctuation.definition.string.begin,punctuation.definition.string.end",
+	// 	"settings": {
+	// 	  "foreground": "#fa557d"
+	// 	}
+	//   },
 	  {
 		"name": "Text",
 		"scope": "variable.parameter.function",
@@ -642,7 +635,7 @@
 		"name": "Language variables",
 		"scope": "variable.language",
 		"settings": {
-		  "foreground": "#ff926f"
+		  "foreground": "#4fe191"
 		}
 	  },
 	  {
@@ -1900,7 +1893,7 @@
 	  },
 	  {
 		"name": "js/ts italic",
-		"scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.language.super",
+		"scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx",
 		"settings": {
 		  "fontStyle": "italic"
 		}
@@ -1934,11 +1927,18 @@
 		}
 	  },
 	  {
-		"name": "String interpolation variable",
-		"scope": "string.interpolated.single.dart",
+		"name": "String interpolation",
+		"scope": "string.interpolated",
 		"settings": {
 			"foreground": "#ffffff",
 			"fontStyle": ""
+		}
+	  },
+	  {
+		"name": "Docstrings",
+		"scope": "string.quoted.docstring",
+		"settings": {
+			"foreground": "#909cc3",
 		}
 	  }
 	],
@@ -1946,20 +1946,20 @@
 	  "foreground": "#fafafa",
 	  "focusBorder": "#188afd",
 	  "selection.background": "#335a92",
-	  "scrollbar.shadow": "#000000",
+	  "scrollbar.shadow": "#0a0f16",
 	  "activityBar.foreground": "#188afd",
 	  "activityBar.background": "#1b2834",
 	  "activityBar.inactiveForeground": "#909090cc",
 	  "activityBarBadge.foreground": "#0e161f",
 	  "activityBarBadge.background": "#188afd",
-	  "activityBar.border": "#000000",
+	  "activityBar.border": "#0a0f16",
 	  "sideBar.background": "#0e161f",
 	  "sideBar.foreground": "#fafafa",
 	  "sideBarSectionHeader.background": "#0e161f",
 	  "sideBarSectionHeader.foreground": "#fafafa",
-	  "sideBarSectionHeader.border": "#000000",
+	  "sideBarSectionHeader.border": "#0a0f16",
 	  "sideBarTitle.foreground": "#188afd",
-	  "sideBar.border": "#000000",
+	  "sideBar.border": "#0a0f16",
 	  "list.inactiveSelectionBackground": "#1b2834a6",
 	  "list.inactiveSelectionForeground": "#fafafa",
 	  "list.hoverBackground": "#1b28344d",
@@ -1972,7 +1972,7 @@
 	  "list.focusBackground": "#1b2834",
 	  "list.focusForeground": "#fafafa",
 	  "listFilterWidget.background": "#661127",
-	  "listFilterWidget.outline": "#00000000",
+	  "listFilterWidget.outline": "#0a0f1600",
 	  "listFilterWidget.noMatchesOutline": "#ff2c64",
 	  "statusBar.foreground": "#fafafa",
 	  "statusBar.background": "#1b2834",
@@ -1987,7 +1987,7 @@
 	  "titleBar.activeForeground": "#fafafa",
 	  "titleBar.inactiveBackground": "#1b2834",
 	  "titleBar.inactiveForeground": "#cccccc99",
-	  "titleBar.border": "#00000000",
+	  "titleBar.border": "#0a0f1600",
 	  "menubar.selectionForeground": "#fafafa",
 	  "menubar.selectionBackground": "#1b2834",
 	  "menubar.selectionBorder": "#ff000000",
@@ -1995,9 +1995,9 @@
 	  "menu.background": "#1b2834",
 	  "menu.selectionForeground": "#fafafa",
 	  "menu.selectionBackground": "#188afda6",
-	  "menu.selectionBorder": "#00000000",
+	  "menu.selectionBorder": "#0a0f1600",
 	  "menu.separatorBackground": "#90909040",
-	  "menu.border": "#00000085",
+	  "menu.border": "#0a0f1685",
 	  "button.background": "#188afd",
 	  "button.foreground": "#0e161f",
 	  "button.hoverBackground": "#1886f4",
@@ -2008,7 +2008,7 @@
 	  "input.border": "#188afd",
 	  "input.foreground": "#fafafa",
 	  "inputOption.activeBackground": "#188afd66",
-	  "inputOption.activeBorder": "#00000000",
+	  "inputOption.activeBorder": "#0a0f1600",
 	  "inputOption.activeForeground": "#fafafa",
 	  "input.placeholderForeground": "#909090",
 	  "textLink.foreground": "#188afd",
@@ -2065,7 +2065,7 @@
 	  "diffEditor.removedTextBackground": "#ff000033",
 	  "diffEditor.border": "#444444",
 	  "panel.background": "#0e161f",
-	  "panel.border": "#000000",
+	  "panel.border": "#0a0f16",
 	  "panelSection.border": "#90909033",
 	  "panelTitle.activeBorder": "#188afd",
 	  "panelTitle.activeForeground": "#fafafa",
@@ -2101,17 +2101,17 @@
 	  "editorGroupHeader.tabsBackground": "#0e161f",
 	  "editorGroupHeader.tabsBorder": "#ff000000",
 	  "tab.activeForeground": "#fafafa",
-	  "tab.border": "#000000",
+	  "tab.border": "#0a0f16",
 	  "tab.activeBackground": "#0e161f",
 	  "tab.activeBorder": "#188afd",
-	  "tab.activeBorderTop": "#00000000",
+	  "tab.activeBorderTop": "#0a0f1600",
 	  "tab.inactiveBackground": "#0e161f",
 	  "tab.inactiveForeground": "#909090cc",
 	  "scrollbarSlider.background": "#79797966",
 	  "scrollbarSlider.hoverBackground": "#646464b3",
 	  "scrollbarSlider.activeBackground": "#bfbfbf66",
 	  "progressBar.background": "#188afd",
-	  "widget.shadow": "#0000005c",
+	  "widget.shadow": "#0a0f165c",
 	  "editorWidget.foreground": "#cccccc",
 	  "editorWidget.background": "#252526",
 	  "editorWidget.resizeBorder": "#5F5F5F",
@@ -2190,7 +2190,7 @@
 	  "statusBarItem.activeBackground": "#FFFFFF25",
 	  "settings.headerForeground": "#188afd",
 	  "settings.focusedRowBackground": "#ffffff07",
-	  "walkThrough.embeddedEditorBackground": "#00000050",
+	  "walkThrough.embeddedEditorBackground": "#0a0f1650",
 	  "breadcrumb.activeSelectionForeground": "#fafafa",
 	  "editorGutter.commentRangeForeground": "#909090cc",
 	  "debugExceptionWidget.background": "#333333",
@@ -2200,6 +2200,6 @@
 	  "quickInputList.focusBackground": "#188afd66",
 	  "quickInputList.focusForeground": "#fafafa",
 	  "quickInputList.focusIconForeground": "#fafafa",
-		
 	}
+	//FIXME: Search widget in activity bar is ugly
   }
