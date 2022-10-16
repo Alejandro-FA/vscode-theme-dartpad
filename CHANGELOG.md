@@ -1,9 +1,8 @@
 # Changelog
 
-All notable changes to the "vscode-theme-dartpad" extension will be documented in this file.
+All notable changes to the ["vscode-theme-dartpad"](https://marketplace.visualstudio.com/items?itemName=Alejandro-FA.vscode-theme-dartpad) extension will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
@@ -17,4 +16,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Black elements of the UI have been changed to use a slightly brighter color (`#0a0f16`). The goal of this change is to achieve a less "contrasty" feel.
 
 ### Fixed
-- Fix typos in README.md
+- Fix typos in README.md.

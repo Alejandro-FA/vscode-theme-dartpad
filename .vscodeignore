@@ -1,5 +1,5 @@
 .vscode/**
 .vscode-test/**
 .gitignore
-example.dart
+samples
 vsc-extension-quickstart.md
