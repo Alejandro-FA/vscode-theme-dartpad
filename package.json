@@ -1,7 +1,16 @@
 {
   "name": "vscode-theme-dartpad",
   "displayName": "DartPad Theme",
-  "description": "Theme inspired by DartPad.",
+  "description": "Unofficial theme inspired by DartPad.",
+  "publisher": "Alejandro-FA",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alejandro-FA/vscode-theme-dartpad.git"
+  },
+  "homepage": "https://github.com/Alejandro-FA/vscode-theme-dartpad/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/Alejandro-FA/vscode-theme-dartpad/issues"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.72.0"
@@ -9,6 +18,12 @@
   "categories": [
     "Themes"
   ],
+  "keywords": ["theme", "dart", "dartpad", "material", "flutter"],
+  "icon": "logo.png",
+  "galleryBanner": {
+    "color": "#188afd",
+    "theme": "dark"
+  },
   "contributes": {
     "themes": [
       {
