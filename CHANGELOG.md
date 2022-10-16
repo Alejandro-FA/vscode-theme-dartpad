@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [0.2.0] - 2022-10-16
 ### Added
 - Changelog.
+- MIT License.
 
 ### Changed
 - Docstrings (`string.quoted.docstring`) now use the same color as comments (`#909cc3`). Previously used color was the same as strings (`#fa557d`).
