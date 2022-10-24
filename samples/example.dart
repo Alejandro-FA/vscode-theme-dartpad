@@ -26,3 +26,9 @@ class Spacecraft {
     }
   }
 }
+
+class Foo {
+  String a = "Hello World!";
+  bool b = true;
+  static const String c = "Hi";
+}
