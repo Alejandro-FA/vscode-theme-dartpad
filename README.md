@@ -8,8 +8,6 @@ Unofficial theme inspired by [DartPad](https://www.dartpad.dev/). If you are a f
 
 DartPad theme with [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) font family and [Bracket Pair Colorization](https://code.visualstudio.com/blogs/2021/09/29/bracket-pair-colorization) disabled.
 
-## Color palette
-  TODO:
 
 ## How to activate the theme
 
@@ -30,3 +28,8 @@ First install the [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) i
 ```
 
 For more information on how settings work, check the [Visual Studio Code documentation](https://code.visualstudio.com/docs/getstarted/settings).
+
+## Planned features
+
+- **Light** theme.
+- Color customization options.

@@ -30,5 +30,5 @@ class Spacecraft {
 class Foo {
   String a = "Hello World!";
   bool b = true;
-  static const String c = "Hi";
+  static const bool c = true || false;
 }
