@@ -4,6 +4,8 @@ All notable changes to the ["vscode-theme-dartpad"](https://marketplace.visualst
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
 ## [0.4.0] - 2022-10-25
 ### Added
 - Syntax highlighting rules have now been tested with Markdown, Python, Java and C++. All these languages should now follow the same logic when it comes to highlighting colors.
@@ -23,4 +25,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Black elements of the UI have been changed to use a slightly brighter color (`#0a0f16`). The goal of this change is to achieve a less "contrasty" feel.
 
 ### Fixed
-- Fix typos in README.md.
+- Fix typos in [README.md](https://github.com/Alejandro-FA/vscode-theme-dartpad/blob/main/README.md).
