@@ -11,6 +11,7 @@
 		"source.interpolation": "#ffffff",
 		"property.annotation": "#919090",
 		// "method.static": "#51e191",
+		"selfParameter": "#51e191",
 		"variable.importPrefix": "#fb557e"
 	},
 	"tokenColors": [
