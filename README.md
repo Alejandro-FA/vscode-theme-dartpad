@@ -2,13 +2,17 @@
 
 Unofficial theme inspired by [DartPad](https://www.dartpad.dev/). If you are a fan of minimalist dark themes, this one is for you.
 
-## Preview
+## Preview of color options
+
+- Default **DartPad** theme:
 
 ![Dark theme preview](images/preview-dark.png)
 
-DartPad theme with [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) font family and [Bracket Pair Colorization](https://code.visualstudio.com/blogs/2021/09/29/bracket-pair-colorization) disabled.
+- Alternative **DartPad Candy** theme:
 
+![Dark Candy theme preview](images/preview-dark-candy.png)
 
+All previews use the [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) font family and have [Bracket Pair Colorization](https://code.visualstudio.com/blogs/2021/09/29/bracket-pair-colorization) disabled.
 ## How to activate the theme
 
 Open the [Command Palette](https://code.visualstudio.com/api/ux-guidelines/command-palette):
@@ -17,14 +21,14 @@ Open the [Command Palette](https://code.visualstudio.com/api/ux-guidelines/comma
   - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘ + Shift + P`
   - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
 
-Type `Preferences: Color Theme`, and select `DartPad`.
+Type `Preferences: Color Theme`, and select `DartPad` or `DartPad Candy`.
 
 ## How to change the font to match DartPad
 
 First install the [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) in your system's fonts. Then add this setting to your Visual Studio Code `settings.json` file:
 
 ```json
-    "editor.fontFamily": "Roboto Mono"
+"editor.fontFamily": "Roboto Mono, Menlo, Monaco, 'Courier New', monospace",
 ```
 
 For more information on how settings work, check the [Visual Studio Code documentation](https://code.visualstudio.com/docs/getstarted/settings).
@@ -32,4 +36,3 @@ For more information on how settings work, check the [Visual Studio Code documen
 ## Planned features
 
 - **Light** theme.
-- Color customization options.
