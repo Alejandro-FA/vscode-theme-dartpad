@@ -4,7 +4,15 @@ All notable changes to the ["vscode-theme-dartpad"](https://marketplace.visualst
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.4.1] - 2022-10-26
+## [Unreleased]
+### Added
+- DartPad Candy theme. It adds a new color (`#ff92d9`) for functions and methods and another one (`#d5e9ed`) for variables.
+- Pragmas in C and C++ now have a specific color (`#919090`).
+
+### Changed
+- Default library constants have been reverted to the orange color (`#ff906f`).
+
+## [0.4.2] - 2022-10-26
 ### Fixed
 - In some systems Python docstrings use `string.quoted.double.block` as a scope. These now should display the same color as comments.
 

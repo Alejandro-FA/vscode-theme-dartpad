@@ -52,7 +52,7 @@
 				"entity.name.funcion.member" // Class methods
 			],
 			"settings": {
-				"foreground": "#0ad2fb"
+				"foreground": "#ff92d9"
 			}
 		},
 		{
@@ -62,7 +62,7 @@
 				"entity.name.variable"
 			],
 			"settings": {
-				"foreground": "#0ad2fb"
+				"foreground": "#d5e9ed"
 			}
 		},
 		{
@@ -162,7 +162,7 @@
 				"storage.modifier.reference.cpp"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#51e191"
 			}
 		},
 		{
@@ -207,8 +207,7 @@
 				"punctuation.definition.parameters",
 				"punctuation.definition.arguments",
 				"punctuation.parenthesis",
-				"punctuation.definition.dict",
-				"storage.modifier.array.bracket"
+				"punctuation.definition.dict"
 			],
 			"settings": {
 				"foreground": "#ffffff"
