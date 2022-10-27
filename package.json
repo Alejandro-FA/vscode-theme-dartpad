@@ -35,7 +35,7 @@
       {
         "label": "DartPad",
         "uiTheme": "vs-dark",
-        "path": "./themes/DartPad-color-theme.json"
+        "path": "./themes/DartPad.json"
       },
       {
         "label": "DartPad Candy",
