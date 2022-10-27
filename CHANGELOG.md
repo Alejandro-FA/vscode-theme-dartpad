@@ -5,6 +5,10 @@ All notable changes to the ["vscode-theme-dartpad"](https://marketplace.visualst
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [0.4.1] - 2022-10-26
+### Fixed
+- In some systems Python docstrings use `string.quoted.double.block` as a scope. These now should display the same color as comments.
+
+## [0.4.1] - 2022-10-26
 ### Fixed
 - Python's `self` parameter now uses the same color as keywords.
 
