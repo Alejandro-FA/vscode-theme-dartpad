@@ -208,7 +208,9 @@
 				"punctuation.definition.arguments",
 				"punctuation.parenthesis",
 				"punctuation.definition.dict",
-				"storage.modifier.array.bracket"
+				"storage.modifier.array.bracket",
+				"punctuation.definition.template-expression",
+				"meta.brace.square"
 			],
 			"settings": {
 				"foreground": "#ffffff"

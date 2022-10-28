@@ -4,6 +4,10 @@ All notable changes to the ["vscode-theme-dartpad"](https://marketplace.visualst
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.2] - 2022-10-28
+### Fixed
+- Some JavaScript punctuation symbols did not use the proper color.
+
 ## [0.5.0] - 2022-10-27
 ### Added
 - New DartPad Candy theme. It adds a new color (`#ff92d9`) for functions and methods and another one (`#d5e9ed`) for variables.
