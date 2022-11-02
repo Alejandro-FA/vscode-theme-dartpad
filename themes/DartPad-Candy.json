@@ -59,7 +59,9 @@
 			"name": "Variables",
 			"scope": [
 				"variable.other.readwrite",
-				"entity.name.variable"
+				"entity.name.variable",
+				"meta.function-call.arguments",
+				"variable.other.object"
 			],
 			"settings": {
 				"foreground": "#d5e9ed"
@@ -210,7 +212,10 @@
 				"punctuation.definition.dict",
 				"storage.modifier.array.bracket",
 				"punctuation.definition.template-expression",
-				"meta.brace.square"
+				"meta.brace",
+				"punctuation.definition.list",
+				"punctuation.definition.block",
+				"punctuation.accessor"
 			],
 			"settings": {
 				"foreground": "#ffffff"
