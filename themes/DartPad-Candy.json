@@ -10,6 +10,7 @@
 		"keyword.void": "#ff906f",
 		"source.interpolation": "#ffffff",
 		"property.annotation": "#919090",
+		"annotation": "#919090",
 		"selfParameter": "#51e191",
 		"variable.importPrefix": "#fb557e"
 	},
@@ -143,7 +144,8 @@
 				"variable.language",
 				"storage.modifier",
 				"storage.type",
-				"keyword.operator.logical.python"
+				"keyword.operator.logical.python",
+				"storage.modifier.specifier.const"
 			],
 			"settings": {
 				"foreground": "#51e191"

@@ -4,6 +4,10 @@ All notable changes to the ["vscode-theme-dartpad"](https://marketplace.visualst
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.4] - 2022-12-24
+### Fixed
+- The `@` symbol in Flutter annotations now uses the same color as the rest of the annotation.
+
 ## [0.5.3] - 2022-11-02
 ### Fixed
 - Some JavaScript punctuation symbols did not use the proper color.
